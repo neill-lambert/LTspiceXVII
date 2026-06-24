@@ -1,0 +1,5 @@
+* C:\users\neill-lambert\Documents\LTspiceXVII\schematics\Draft1.asc
+XU1 NC_01 NC_02 NC_03 PotLin Rt=10K set=.5
+.lib pote.lib
+.backanno
+.end

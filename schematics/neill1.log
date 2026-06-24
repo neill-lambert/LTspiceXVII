@@ -1,0 +1,4 @@
+Circuit: * C:\users\neill-lambert\Documents\LTspiceXVII\schematics\neill1.asc
+
+Fatal Error: Unknown subcircuit called in:
+   xu4 nc_20 nc_21 nc_22 pot_lin rt=10k set=.5
