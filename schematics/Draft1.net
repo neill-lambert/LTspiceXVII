@@ -1,5 +1,7 @@
 * C:\users\neill-lambert\Documents\LTspiceXVII\schematics\Draft1.asc
-XU1 NC_01 NC_02 NC_03 PotLin Rt=10K set=.5
+XU1 NC_01 NC_02 NC_03 pot_audio
+R1 NC_04 NC_05 {Rval}
+.step param Rval 10 100 10
 .lib pote.lib
 .backanno
 .end
