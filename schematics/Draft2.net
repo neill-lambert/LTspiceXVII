@@ -1,8 +1,5 @@
 * C:\users\neill-lambert\Documents\LTspiceXVII\schematics\Draft2.asc
-Q1 NC_01 NC_02 NC_03 0 2N2222A
-.model NPN NPN
-.model PNP PNP
-.lib C:\users\neill-lambert\Documents\LTspiceXVII\lib\cmp\standard.bjt
-.inc custom_models.lib
+XU1 NC_01 NC_02 NC_03 potentiometer Rt=10K set=.5
+.lib pote.lib
 .backanno
 .end
