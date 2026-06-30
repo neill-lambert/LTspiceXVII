@@ -1,0 +1,27 @@
+* C:\users\neill-lambert\Documents\LTspiceXVII\schematics\transistor_boost.asc
+V1 in 0 SINE(0 .2 440)
+Rp in 0 1Meg
+R1 N001 N003 1.3Meg
+R2 N003 0 330k
+Re N004 0 820
+Rc N001 N002 9.1k
+Rv out 0 100k
+C2 N003 in 0.1µ
+C3 out N002 1µ
+C1 N001 0 47µ
+V2 N001 0 9v
+Q1 N002 N003 N004 0 2N2222A_CUSTOM
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\neill-lambert\Documents\LTspiceXVII\lib\cmp\standard.bjt
+transistor boost circuit
+guitar signal
+power supply
+gain = Rc/Re
+.tran 0 10ms 0
+.model 2N2222A_CUSTOM NPN(Is=14.34f Xti=3 Eg=1.11 Vaf=74.03 Bf=255.9 Ne=1.307
++ Ise=14.34f Ikf=.2847 Xtb=1.5 Br=6.092 Nc=2 Isc=0 Ikr=0 Rc=1 Cjc=7.306p
++ Mjc=.3416 Vjc=.75 Fc=.5 Cje=22.01p Mje=.377 Vje=.75 Tr=46.91n
++ Tf=411.1p Itf=.6 Vtf=1.7 Xtf=3 Rb=10)
+.backanno
+.end

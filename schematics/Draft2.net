@@ -1,5 +1,0 @@
-* C:\users\neill-lambert\Documents\LTspiceXVII\schematics\Draft2.asc
-XU1 NC_01 NC_02 NC_03 potentiometer Rt=10K set=.5
-.lib pote.lib
-.backanno
-.end
