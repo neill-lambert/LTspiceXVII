@@ -1,0 +1,73 @@
+Circuit: * C:\users\neill-lambert\Documents\LTspiceXVII\schematics\tube_screamer.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.49501
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 5.50104
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+.step tone=0.05 gain=0
+.step tone=0.1 gain=0
+.step tone=0.25 gain=0
+.step tone=0.5 gain=0
+.step tone=0.75 gain=0
+.step tone=0.05 gain=0.25
+.step tone=0.1 gain=0.25
+.step tone=0.25 gain=0.25
+.step tone=0.5 gain=0.25
+.step tone=0.75 gain=0.25
+.step tone=0.05 gain=0.5
+.step tone=0.1 gain=0.5
+.step tone=0.25 gain=0.5
+.step tone=0.5 gain=0.5
+.step tone=0.75 gain=0.5
+.step tone=0.05 gain=0.75
+.step tone=0.1 gain=0.75
+.step tone=0.25 gain=0.75
+.step tone=0.5 gain=0.75
+.step tone=0.75 gain=0.75
+.step tone=0.05 gain=1
+.step tone=0.1 gain=1
+.step tone=0.25 gain=1
+.step tone=0.5 gain=1
+.step tone=0.75 gain=1
+
+Date: Wed Jul 08 17:28:38 2026
+Total elapsed time: 4.767 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3959
+traniter = 2442
+tranpoints = 1145
+accept = 1092
+rejected = 53
+matrix size = 72
+fillins = 171
+solver = Normal
+Matrix Compiler1: 12.93 KB object code size  2.0/0.9/[0.6]
+Matrix Compiler2: 9.15 KB object code size  1.8/1.7/[0.7]
+
