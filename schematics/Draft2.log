@@ -1,0 +1,4 @@
+Z:\home\neill-lambert\Documents\LTspiceXVII\schematics\Draft2.net(3): Expected model definition here.
+.MODEL NE5532 OPA (LEVEL=3 A=100K GBW=10MEG IBIAS=200n IOFF=10n IOSC=38m
++ PD=100m ROUTAC=50 ROUTDC=75 SRN=9MEG SRP=9MEG VNS=-12.4 VOFF=500u VPS=12.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
